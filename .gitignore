@@ -1,0 +1,31 @@
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Python / notebooks (if added later)
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local data exports (keep logs/tables tracked; keep raw exports untracked)
+data/raw/*
+!data/raw/.gitkeep
+
+# PDFs / full texts (optional)
+papers/*
+!papers/.gitkeep
+
+# Databases / binaries
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+
+# Benchmarks (runtime artifacts; keep benchmark docs and curated results tracked)
+benchmarks/**/volumes/
+benchmarks/**/tmp/
+
